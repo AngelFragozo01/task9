@@ -1,0 +1,15 @@
+@extends('adminlte::page')
+
+@section('title', 'Fotos')
+
+@section('content_header')
+    <h1>Galería de Fotos</h1>
+@stop
+
+@section('content')
+    <div class="card">
+        <div class="card-body">
+            <p>Aquí se muestran las diferentes fotografías del proyecto.</p>
+        </div>
+    </div>
+@stop
